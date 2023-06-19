@@ -85,6 +85,17 @@
               <a :href="downloads.fabric" v-on:click="logDownload('fabric')" class="resource">
               <a :href="downloads.forge" v-on:click="logDownload('forge')" class="resource">
 
+            TODO: 
+              
+              - check whether all needed versions are listed and linked properly
+              - for longer lists (probably fabric) consider splitting it in half (2 containers)
+              - get feedback about style and functionality
+              - check if there's anything that can be optimized
+              - fix spacing and beautify
+              - annoy turbo about all of the above
+              - open pr
+              - jump off a bridge
+
           -->
 
           <a :href="downloads.nukkit" v-on:click="logDownload('nukkit')" class="resource">
